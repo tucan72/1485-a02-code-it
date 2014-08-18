@@ -1,0 +1,14 @@
+#home {background-color: yellow;
+}
+
+
+
+body{ margin:0;
+padding:0;}
+
+
+.wrapper {
+  background-color: aqua;
+  max-width:  1170px;
+  margin:0 auto 0 auto;
+}
