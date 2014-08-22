@@ -22,23 +22,42 @@ margin:0 auto 0 auto;
 }
 
 
-
+element.style {
+clear: both;
+}
 
 
 .column-features{
 bckground-color:red;
 width:33%;
 float:left;
+
+*, *;before, *;after {
+-webkit box-sizing: border-box;
+-moz:box-sizing: border-box;
+box-sizing: border-box;
+
+padding-right:30px;
+
 }
+
+
+
 
 
 .column-gallery{
-bckground-color:red;
+background-color:red;
 width:20%;
 float:left;
+
+
 }
 
+.collumn-gallery img{
+width:100%}
 
+.collumn-features img{
+width:100%}
 
 #gallery{
 clear:both;
@@ -50,3 +69,5 @@ overflow:auto;
 .column-gallery img {
 width:100%
 }
+
+
