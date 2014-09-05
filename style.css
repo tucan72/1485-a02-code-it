@@ -3,10 +3,38 @@
 </head>
 
 
+
+
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 #home {
   background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;
   background-height: 100%;
   min-height:780px;
+}
+
+.column-features, .column-gallery {
+  width:33%;
+  float:left;
+  padding-right:30px;
+
+}
+.column-gallery {
+  width: 20%;
+  padding:0 25px;
+}
+
+.column-gallery img, .column-features img {
+  width:100%;
+}
+
+.fade {
+  opacity:.3;
 }
 
 body{
@@ -42,6 +70,11 @@ padding:0;
 background-color: aqua;
 max-width:  1170px;
 margin:0 auto 0 auto;
+}
+
+#home .wrapper {
+  position: relative;
+  min-height:780px;
 }
 
 
