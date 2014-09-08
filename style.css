@@ -6,8 +6,8 @@
 
 
 body, h1, h2, nav, header, ul, li {
-  margin:0;
-  padding:0;
+margin:0;
+padding:0;
 }
 
 *, *:before, *:after {
@@ -44,11 +44,11 @@ margin: 0 auto;
 }
 
 .logo {
-  float:left;
+float:left;
 }
 
 nav {
-  float:right;
+float:right;
 }
 
 nav ul {
@@ -129,11 +129,7 @@ display: block;
 .person a span {
 display: none;
 position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-font-size: 12px;
+font-size: 10px;
 text-align: center;
 background: #f8e72b;
 color: black;
@@ -177,18 +173,18 @@ padding-bottom: 200px;
 }
 
 .quote-mark {
-	padding-top: 100px;
-	padding-bottom: 50px;
+padding-top: 100px;
+padding-bottom: 50px;
 }
 
 #blockquote img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto
+display: block;
+margin-left: auto;
+margin-right: auto
 }
 
 #blockquote h4, #blockquote p {
-	text-align: center;
+text-align: center;
 }
 
 blockquote {
@@ -300,7 +296,7 @@ clear: both;
 .column-features{
 bckground-color:red;
 width:33%;
-float:left;
+float:right;
 
 *, *;before, *;after {
 -webkit box-sizing: border-box;
@@ -355,18 +351,14 @@ width:100%
 }
 
 .feature-content {
-  width:85%;
-  float:left;
+ width:85%;
+ float:left;
 }
 
 
 
 
-
-
-
 #footer-text {
-	clear: both;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 21px;
+font-family: 'Open Sans', sans-serif;
+font-size: 21px;
 }
